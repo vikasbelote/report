@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2017-05-15T16:24:03 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="650" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5a8986f1-ab23-4c5c-9c09-c3f6e6d05baf">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="98" splitType="Stretch">
+			<textField>
+				<reportElement x="-20" y="0" width="630" height="98" uuid="7b93868b-b749-4b9e-bf36-51cfcc8d6727"/>
+				<textElement>
+					<font fontName="ShivajiFont" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA["AapNaaMsa kLivaNyaat yaoto kI maata palak saMGa maaoQaLvaaDIcaI saBaa \n"
++"id."+$P{Parameter1}+" raojaI sa.        vaa. ija.p.p`aqa.SaaLa maaoQaLvaaDI yaoqao " +"baaolaivaNyaat AalaI "
++"Aaho.saBaot KalaIla  ivaYayaaMvar saivastr cacaa- krNyaat yaoNaar Aaho.trI AaplaI " +"]pisqatI "
++"p`aqa-naIya Aaho."]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>
